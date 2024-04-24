@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  java_server:
+    image: polarkaung1999/knowledge_sharing_copilot:java
+    container_name: java_server
+    ports:
+      - 8002:8080

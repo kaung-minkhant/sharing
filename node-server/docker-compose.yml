@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  node_server:
+    image: node_server:latest
+    container_name: node_server
+    ports:
+      - 8000:8000
